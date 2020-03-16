@@ -33,3 +33,19 @@ switch (true) {
         console.log("Invalid");
         break;
 }// the number will be invalid
+
+if( grade == "A+" || grade == "A" || grade == "A-" ) {
+  result = ("Pass with distinction")
+}
+else if (grade =="B+" ||  grade =="B" || grade == "B-"){
+  result = ("Pass with merit")
+}
+else if (grade =="C+" ||  grade =="C" ){
+  result = ("Pass")}
+
+else if (grade =="D"){
+    result = ("Fail")}
+
+else if (grade =="E"){
+    result = ("Fail")
+  }
